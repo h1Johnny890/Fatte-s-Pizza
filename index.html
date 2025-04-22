@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatte's Pizza | Artisan Pizza</title>
+    <!-- link to google fonts to include poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- link to font awesome to include icons -->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Fatte's Pizzas</div>
+        <nav class="nav-links">
+            <a href="#menu">Menu</a>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#about">About</a>
+        </nav>
+        <a href="https://fattessantamaria.com/menu"><button class="cta-btn">Order Now</button></a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Artisan Pizzas Crafted with Passion</h1>
+            <p>Experience authentic Italian flavors with our
+                wood-fired pizzas made from locally-sourced ingredients</p>
+                <a href="#menu"><button class="cta-btn">Explore Menu</button></a>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.png" height="500px" alt="Artisan Pizza">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pizza">Pizzas</button>
+        <button class="filter-btn" data-filter="subs">Subs</button>
+        <button class="filter-btn" data-filter="salads">Salads</button>
+        <button class="filter-btn" data-filter="wings">Wings & Pork Ribs</button>
+        <button class="filter-btn" data-filter="sides">Sides</button>
+    </div>
+    <div class="menu-grid">
+        <div class="menu-card" data-category="pizza">
+            <img src="1.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Sticky Fingers</h3>
+                <p>Pepperoni, ham, bacon, onions, Italian sausage, mushrooms, black olives, and green peppers.</p>
+                <div class="price">S $26.99 / M $31.99 / L $36.99 / XL $41.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="2.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Deluxe Hawaiian</h3>
+                <p>Ham, pineapple, bacon, onions, and extra cheese.</p>
+                <div class="price">S $24.99 / M $29.99 / L $34.99 / XL $39.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="3.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Veggie</h3>
+                <p>Mushrooms, green peppers, black olives, onions, tomatoes, and artichoke hearts.</p>
+                <div class="price">S $25.99 / M $30.99 / L $35.99 / XL $40.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="4.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Chicken Combo</h3>
+                <p>Chicken, garlic, black olives, onions, tomatoes, available with garlic sauce or red sauce.</p>
+                <div class="price">S $24.99 / M $29.99 / L $34.99 / XL $39.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="5.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Chorizo Combo</h3>
+                <p>Chorizo, jalapeños, onions, tomatoes, and bacon.</p>
+                <div class="price">S $24.99 / M $29.99 / L $34.99 / XL $39.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="6.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Meat Medley</h3>
+                <p>Pepperoni, Italian sausage, ham, linguica, ground beef, and bacon.</p>
+                <div class="price">S $25.99 / M $30.99 / L $35.99 / XL $40.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="pizza">
+            <img src="7.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Fatte's Special</h3>
+                <p>Pepperoni, Italian sausage, ham, linguica, onions, mushrooms, garlic, pineapple, black olives, and green peppers.</p>
+                <div class="price">S $28.99 / M $33.99 / L $38.99 / XL $43.99</div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="subs">
+            <img src="subs.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Fatte's Subs</h3>
+                <p><strong>Monster combo </strong>$12.99 - Roast beef, ham, pepperoni, Italian sausage, and cheese.<br>
+                    
+                    <strong>Roast beef and cheese </strong>$10.99<br>
+                    
+                    <strong>Italian sausage and cheese </strong>$10.99<br>
+                    
+                    <strong>Ham and cheese </strong>$10.99<br>
+                    
+                    <strong>Meatball and cheese </strong>$10.99<br>
+                    
+                    <strong>Veggie pack for sub </strong>$2.99</p>
+            </div>
+        </div>
+        <div class="menu-card" data-category="salads">
+            <img src="salad.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Fatte's Salads</h3>
+                <p><strong>Antipasto salad  </strong> $8.99 - Lettuce, tomatoes, cheese, pepperoni, ham, mushrooms, onions, green peppers, black olives, 2 Italian or Ranch dressing include.<br>
+                   <strong>Individual tossed green salad  </strong> $4.99
+                    Lettuce, tomatoes, and cheese, 1 Italian or Ranch dressing include. <br>
+                    <em>Extra dressing   $.50 each</em></p>
+            </div>
+        </div>
+        <div class="menu-card" data-category="wings">
+            <img src="wings.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Wings & Pork Ribs</h3>
+                <p><strong>Chicken wings Spicy buffalo, teriyaki, barbecue.  </strong> $9.99<br>
+                   <strong>Pork ribs Spicy buffalo, teriyaki, barbecue. </strong>   $9.99</p>
+            </div>
+        </div>
+        <div class="menu-card" data-category="sides">
+            <img src="sides.avif" height="200px">
+            <div class="menu-card-content">
+                <h3>Sides</h3>
+                <p><strong>Cheesy breadsticks with marinara sauce </strong>$8.99<br>
+
+                    <strong>Garlic bread </strong>$4.99<br>
+                    
+                    <strong>Garlic bread with mozzarella cheese </strong>$6.99
+                <em>All prices listed before tax</em></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+    <div class="features-grid">
+        <div class="feature-card">
+            <i class="fas fa-fire"></i>
+            <h3>Wood-Fired Oven</h3>
+            <p>Authentic 900°F brick oven cooking</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-seedling"></i>
+            <h3>Local Ingredients</h3>
+            <p>Sourced from local farms daily</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-clock"></i>
+            <h3>Fast Delivery</h3>
+            <p>30-minute guarantee or free</p>
+        </div>
+    </div>
+</section>
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <img src="profile.jpg" height="80px" alt="Customer">
+            <h3>Salvador Yanez</h3>
+            <p>"We out here on vacation and the wife found this spot. Great deals w/ coupons. Had the 2 large sticky fingers , meatball sub and garlic cheese bread. This should have been enough for 6 people. Let’s just say we have left overs since it was only 3 of us. Thanks for the smiling faces great customer service. Be Blessed."</p>
+        </div>
+        <div class="testimonial-card">
+            <img src="profile.jpg" height="80px" alt="Customer">
+            <h3>Heidi Macomber</h3>
+            <p>"Omg how would you define thick pizza? Loaded, all the fixings, two for one pricing. My favorite is the Fatte’s Deluxe Hawaiian with white sauce. Cannot get this the same way any where’s else."</p>
+        </div>
+        <div class="testimonial-card">
+            <img src="profile.jpg" height="80px" alt="Customer">
+            <h3>Mathias Koeppel</h3>
+            <p>"Omg how would you define thick pizza? Loaded, all the fixings, two for one pricing. My favorite is the Fatte’s Deluxe Hawaiian with white sauce. Cannot get this the same way any where’s else."</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-col">
+            <h3>Pizza Paradiso</h3>
+            <p>Bringing authentic Italian flavors to your doorstep since 2010.</p>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p>123 Pizza Street, NY</p>
+            <p>(555) 123-4567</p>
+            <p>info@pizzaparadiso.com</p>
+        </div>
+    </div>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="copyright">
+        © 2023 Pizza Paradiso. All rights reserved.
+    </div>
+</footer>
+
+
+
+
+
+
+   
+<!-- link to js file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
